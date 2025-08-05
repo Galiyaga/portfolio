@@ -6,7 +6,7 @@ const Header = () => {
       <div className="header__img">
         <img 
         className="img__iam"
-        src="/foto/IMG_6064.png"
+        src="/foto/my_foto.png"
         alt="Моя фотография"
         loading="lazy"
         />
