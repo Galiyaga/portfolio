@@ -21,7 +21,7 @@ const ProjectPage = () => {
           <h1 className="title-1">{project.title}</h1>
 
           <a
-            href={project.vercelLink}
+            href={vercelLink.link}
             target="_blank"
             rel="noopener noreferrer"
           >
