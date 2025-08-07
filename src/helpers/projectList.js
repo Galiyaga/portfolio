@@ -13,6 +13,8 @@ const projects = [
     skills: "Node.js, React, Redux, HTML5, CSS3",
     img: project01,
     imgBig: project01Big,
+    video: "/videos/video-review-skan.mp4",
+    posterVideo: "./img/projects/01-big.png",
     links: {
       gitHubLink: {
         title: "GitHub repo",

@@ -8,29 +8,21 @@ const ProjectPage = () => {
   const gitHubLink = project.links?.gitHubLink;
   const vercelLink = project.links?.vercelLink;
 
-  console.log("GitHub Link Data:", {
-    link: gitHubLink.link,
-    title: gitHubLink.title,
-    iconType: typeof gitHubLink.icon,
-    iconValue: gitHubLink.icon,
-  });
   return (
     <main className="section">
       <div className="container">
         <div className="project-details">
           <h1 className="title-1">{project.title}</h1>
 
-          <a
-            href={vercelLink.link}
-            target="_blank"
-            rel="noopener noreferrer"
+          <video
+            controls
+            width="100%"
+            poster={gitHubLink.posterVideo}
+            alt="Видеообзор сайта"
+            className="project-details__cover"
           >
-            <img
-              src={project.imgBig}
-              alt=""
-              className="project-details__cover"
-            />
-          </a>
+            <source src={project.video} type="video/mp4" />
+          </video>
 
           <div className="project-details__desc">
             <p>Skills: {project.skills}</p>
@@ -42,8 +34,11 @@ const ProjectPage = () => {
               title={gitHubLink.title}
               icon={gitHubLink.icon}
             />
-            <BtnWithLink link={vercelLink.link} title={vercelLink.title} icon={vercelLink.icon} />
-            
+            <BtnWithLink
+              link={vercelLink.link}
+              title={vercelLink.title}
+              icon={vercelLink.icon}
+            />
           </div>
         </div>
       </div>
