@@ -75,7 +75,7 @@ input::-ms-clear {
 	display: none;
 }
 
-button, input[type="submit"] {
+button, input[type="submit"], a {
     display: inline-block;
     box-shadow: none;
     background-color: transparent;

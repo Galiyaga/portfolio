@@ -194,6 +194,15 @@ body {
 	line-height: 1.3;
 }
 
+.project-details__link {
+	display: flex;
+	gap: 20px;
+}
+
+.project-details__link a {
+	min-width: 180px;
+}
+
 /* Content list */
 
 .content-list {
