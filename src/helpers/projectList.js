@@ -3,7 +3,7 @@ import project01Big from "../img/projects/01-big.png";
 import project02 from "../img/projects/02.jpg";
 import project02Big from "../img/projects/02-big.jpg";
 import project03 from "../img/projects/03.jpg";
-import project03Big from "../img/projects/03-big.jpg";
+import project03Big from "../img/projects/03-big.gif";
 import imgGH from "./gitHub-black.svg";
 import imgVC from "./vercel-black.svg";
 
@@ -14,7 +14,7 @@ const projects = [
     img: project01,
     imgBig: project01Big,
     video: "/videos/video-review-skan.mp4",
-    posterVideo: "./img/projects/01-big.png",
+    posterVideo: "../img/projects/01-big.png",
     links: {
       gitHubLink: {
         title: "GitHub repo",
@@ -24,7 +24,7 @@ const projects = [
       vercelLink: {
         title: "On the domain",
         link: "https://finally-project-three.vercel.app/",
-        icon: imgVC
+        icon: imgVC,
       },
     },
   },
@@ -45,12 +45,20 @@ const projects = [
     },
   },
   {
-    title: "Таск-менеджер",
+    title: "Таск-менеджер на ванильном JS",
     skills: "Node.js, VanillaJS, HTML5, CSS3",
     img: project03,
     imgBig: project03Big,
-    gitHubLink: "https://github.com/Galiyaga/task-manager",
-    vercelLink: "https://task-manager-ts-project.vercel.app/todolists",
+    links: {
+      gitHubLink: {
+        title: "GitHub repo",
+        link: "https://github.com/Galiyaga/task-manager",
+      },
+      vercelLink: {
+        title: "On the domain",
+        link: "task-manager-vanillajs.vercel.app",
+      },
+    },
   },
 ];
 

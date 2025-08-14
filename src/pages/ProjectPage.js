@@ -14,15 +14,22 @@ const ProjectPage = () => {
         <div className="project-details">
           <h1 className="title-1">{project.title}</h1>
 
-          <video
-            controls
-            width="100%"
-            poster={gitHubLink.posterVideo}
-            alt="Видеообзор сайта"
-            className="project-details__cover"
-          >
-            <source src={project.video} type="video/mp4" />
-          </video>
+          {project.video ? (
+            <video
+              controls
+              width="100%"
+              aria-label="Видеообзор сайта"
+              className="project-details__cover"
+            >
+              <source src={project.video} type="video/mp4" />
+            </video>
+          ) : (
+            <img
+              src={project.imgBig}
+              alt="Обложка проекта"
+              className="project-details__cover"
+            />
+          )}
 
           <div className="project-details__desc">
             <p>Skills: {project.skills}</p>
