@@ -1,5 +1,5 @@
-import project01 from "../img/projects/01.png";
-import project01Big from "../img/projects/01-big.png";
+import project01 from "../img/projects/01.jpg";
+import project01Big from "../img/projects/01-big.jpg";
 import project02 from "../img/projects/02.jpg";
 import project02Big from "../img/projects/02-big.jpg";
 import project03 from "../img/projects/03.jpg";
@@ -16,7 +16,6 @@ const projects = [
     img: project01,
     imgBig: project01Big,
     video: "/videos/video-review-skan.mp4",
-    posterVideo: "../img/projects/01-big.png",
     links: {
       gitHubLink: {
         title: "GitHub repo",
@@ -35,6 +34,7 @@ const projects = [
     skills: "Node.js, React, TypeScript, Redux, HTML5, CSS3",
     img: project02,
     imgBig: project02Big,
+    video: "/videos/video-review-task-manager-ts.mp4",
     links: {
       gitHubLink: {
         title: "GitHub repo",
@@ -43,7 +43,7 @@ const projects = [
       },
       vercelLink: {
         title: "On the domain",
-        link: "https://task-manager-ts-project.vercel.app/login",
+        link: "https://task-manager-ts-project.vercel.app",
         icon: imgVC,
       },
     },
@@ -61,7 +61,7 @@ const projects = [
       },
       vercelLink: {
         title: "On the domain",
-        link: "task-manager-vanillajs.vercel.app",
+        link: "https://task-manager-vanillajs.vercel.app",
         icon: imgVC,
       },
     },
@@ -79,7 +79,7 @@ const projects = [
       },
       vercelLink: {
         title: "On the domain",
-        link: "lending-module18.vercel.app",
+        link: "https://lending-module18.vercel.app",
         icon: imgVC,
       },
     },
