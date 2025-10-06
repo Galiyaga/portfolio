@@ -2,8 +2,8 @@ import project01 from "../img/projects/01.jpg";
 import project01Big from "../img/projects/01-big.jpg";
 import project02 from "../img/projects/02.jpg";
 import project02Big from "../img/projects/02-big.jpg";
-import project03 from "../img/projects/03.jpg";
-import project03Big from "../img/projects/03-big.gif";
+// import project03 from "../img/projects/03.jpg";
+import project03Big from "../img/projects/03-gif.gif";
 import project04 from "../img/projects/04.jpg";
 import project04Big from "../img/projects/04-big.jpg";
 import imgGH from "./gitHub-black.svg";
@@ -51,7 +51,7 @@ const projects = [
   {
     title: "Таск-менеджер на ванильном JS",
     skills: "Node.js, VanillaJS, Dragula, HTML5, CSS3",
-    img: project03,
+    img: project02,
     imgBig: project03Big,
     links: {
       gitHubLink: {
@@ -71,6 +71,7 @@ const projects = [
     skills: "Node.js, VanillaJS, Dragula, HTML5, CSS3",
     img: project04,
     imgBig: project04Big,
+    video: "/videos/video-review-lending.mp4",
     links: {
       gitHubLink: {
         title: "GitHub repo",
