@@ -17,7 +17,7 @@ const Home = () => {
             </li>
             <li className="content-list__item">
               <h2 className="title-2">Backend</h2>
-              <p>NodeJS, базовый MySQL, базовый PHP</p>
+              <p>NodeJS, basic MySQL, basic PHP</p>
             </li>
           </ul>
         </div>

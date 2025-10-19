@@ -50,7 +50,7 @@ const projects = [
   },
   {
     title: "Таск-менеджер на ванильном JS",
-    skills: "Node.js, VanillaJS, Dragula, HTML5, CSS3",
+    skills: "Node.js, VanillaJS, Dragula, HTML5, CSS3, Bootstrap",
     img: project02,
     imgBig: project03Big,
     links: {
