@@ -2,7 +2,7 @@ import project01 from "../img/projects/01.jpg";
 import project01Big from "../img/projects/01-big.jpg";
 import project02 from "../img/projects/02.jpg";
 import project02Big from "../img/projects/02-big.jpg";
-// import project03 from "../img/projects/03.jpg";
+import project03 from "../img/projects/03.png";
 import project03Big from "../img/projects/03-gif.gif";
 import project04 from "../img/projects/04.jpg";
 import project04Big from "../img/projects/04-big.jpg";
@@ -11,7 +11,7 @@ import imgVC from "./vercel-black.svg";
 
 const projects = [
   {
-    title: "Сайт по поиску публикаций о компании по ИНН",
+    title: "Website for searching publications",
     skills: "Node.js, React, Redux, HTML5, CSS3",
     img: project01,
     imgBig: project01Big,
@@ -30,7 +30,7 @@ const projects = [
     },
   },
   {
-    title: "Браузерное приложение таск-менеджер",
+    title: "Browser-based task manager application",
     skills: "Node.js, React, TypeScript, Redux, HTML5, CSS3",
     img: project02,
     imgBig: project02Big,
@@ -49,9 +49,9 @@ const projects = [
     },
   },
   {
-    title: "Таск-менеджер на ванильном JS",
+    title: "Task manager in vanilla JS",
     skills: "Node.js, VanillaJS, Dragula, HTML5, CSS3, Bootstrap",
-    img: project02,
+    img: project03,
     imgBig: project03Big,
     links: {
       gitHubLink: {
@@ -67,7 +67,7 @@ const projects = [
     },
   },
   {
-    title: "Верстка лендинга дизайнерского сайта",
+    title: "Landing page layout for a designer website",
     skills: "Node.js, VanillaJS, Dragula, HTML5, CSS3",
     img: project04,
     imgBig: project04Big,

@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="container">
         <div className="nav-row">
           <NavLink className="logo" to="/">
-            <strong>Freelancer</strong> portfolio
+            <strong>my</strong> portfolio
           </NavLink>
 
           <BtnDarkMode />

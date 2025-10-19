@@ -19,7 +19,7 @@ const Header = () => {
           <br />a frontend developer
         </h1>
         <div className="header__text">
-          <p>with passion for learning and creating.</p>
+          <p>who's always excited to learn new things and bring ideas to life.</p>
         </div>
         <a href="#!" className="btn">
           Download CV

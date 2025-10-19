@@ -6,7 +6,7 @@ import tg from "../../img/icons/telegram.svg";
 function Copyright() {
   return (
     <p className="copyright">
-      {`© ${new Date().getFullYear()}. Все права защищены.`}
+      {`© ${new Date().getFullYear()}. All rights reserved.`}
     </p>
   );
 }
