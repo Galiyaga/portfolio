@@ -7,7 +7,14 @@ const Contacts = () => {
         <ul className="content-list">
           <li className="content-list__item">
             <h2 className="title-2">Location</h2>
-            <p>Kazan, Russia</p>
+            <p>
+              <a
+                href="https://yandex.ru/maps/geo/kazan/53166501/?ll=49.108223%2C55.794889&z=14.8"
+                target="_blank"
+              >
+                Kazan, Russia
+              </a>
+            </p>
           </li>
           <li className="content-list__item">
             <h2 className="title-2">Telegram / WhatsApp</h2>
