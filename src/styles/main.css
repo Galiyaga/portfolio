@@ -80,11 +80,7 @@ body {
 }
 
 .section {
-  padding: 70px 0;
-  background-image: url("../img/header-bg.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center center;
+  padding: 140px 0;
 }
 
 .title-1 {
@@ -226,6 +222,16 @@ body {
 
 .content-list__item p + p {
   margin-top: 0.5em;
+}
+
+/* Contacts */
+
+.contacts__section {
+  padding: 140px 0;
+  background-image: url("../img/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
 }
 
 @media (max-width: 620px) {
