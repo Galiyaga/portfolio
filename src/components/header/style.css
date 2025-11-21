@@ -1,3 +1,15 @@
+@keyframes onTheLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
 .header {
   position: relative;
   padding-top: 40px;
@@ -44,6 +56,7 @@
   padding: 0 15px;
   max-width: 600px;
   mask-image: radial-gradient(circle at center, black 60%, transparent 100%);
+  animation: onTheLeft 3s cubic-bezier(0.12, 0, 0.39, 0) 0s 1 normal forwards;
 }
 
 .header__wrapper {
