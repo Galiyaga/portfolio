@@ -4,12 +4,15 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__img">
-        <img 
-        className="img__iam"
-        src="/foto/my_foto_2.png"
-        alt="Моя фотография"
-        loading="lazy"
+        <img
+          className="img__iam"
+          src="/foto/my_foto_2.png"
+          alt="Моя фотография"
+          loading="lazy"
         />
+      </div>
+      <div class="header-bg">
+        <img className="header-bg__img" src="/foto/header-bg.png" alt="Элемент дизайна" />
       </div>
       <div className="header__wrapper">
         <h1 className="header__title">
@@ -19,7 +22,9 @@ const Header = () => {
           <br />a frontend developer
         </h1>
         <div className="header__text">
-          <p>who's always excited to learn new things and bring ideas to life.</p>
+          <p>
+            who's always excited to learn new things and bring ideas to life.
+          </p>
         </div>
         <a href="#!" className="btn">
           Download CV
