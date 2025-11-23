@@ -1,6 +1,46 @@
 @import "./reset.css";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap");
 
+@keyframes onTheLeft {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+@keyframes onTheTop {
+	0% {
+		transform: translateY(-100px);
+	}
+
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+@keyframes onTheRight {
+	0% {
+		transform: translateX(100px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes onTheBottom {
+	0% {
+		transform: translateY(100px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+
 :root {
   /* Colors */
   --blackpure: #000;
@@ -161,6 +201,19 @@ body {
   flex-wrap: wrap;
   column-gap: 30px;
   row-gap: 30px;
+}
+
+.projects a:nth-child(1) {
+  animation: onTheLeft 2s ease 0s 1 normal forwards;
+}
+.projects a:nth-child(2) {
+  animation: onTheTop 2s ease 0s 1 normal forwards;
+}
+.projects a:nth-child(3) {
+  animation: onTheRight 2s ease 0s 1 normal forwards;
+}
+.projects a:nth-child(4) {
+  animation: onTheBottom 2s ease 0s 1 normal forwards;
 }
 
 /* Project details */
