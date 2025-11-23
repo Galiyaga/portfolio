@@ -181,10 +181,11 @@ body {
   background-color: #fff;
   color: #000;
 
-  transition: opacity 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .btn-outline:hover {
+  transform: scale(1.05);
   opacity: 0.8;
 }
 
