@@ -1,4 +1,7 @@
 import Header from "../components/header/Header";
+import {skills} from '../helpers/skillList'
+import Skill from '../components/skill/Skill'
+
 
 const Home = () => {
   return (
@@ -8,6 +11,9 @@ const Home = () => {
       <main className="section">
         <div className="container">
           <ul className="content-list">
+            {skills.map((skill, index) => {
+              return <Skill skill={skill} key={index} />
+            })}
             <li className="content-list__item">
               <h2 className="title-2">Frontend</h2>
               <p>

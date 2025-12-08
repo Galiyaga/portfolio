@@ -68,7 +68,7 @@ const projects = [
   },
   {
     title: "Landing page layout for a designer website",
-    skills: "Node.js, VanillaJS, Dragula, HTML5, CSS3",
+    skills: "HTML5, CSS3",
     img: project04,
     imgBig: project04Big,
     video: "/videos/video-review-lending.mp4",
