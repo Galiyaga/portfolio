@@ -1,7 +1,7 @@
 const Skill = (props) => {
   return (
     <li>
-      <img src={props.img} alt="Typescript" />
+      {props.icon}
       <span>{props.title}</span>
     </li>
   );

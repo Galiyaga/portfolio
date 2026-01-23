@@ -1,4 +1,4 @@
-import typescriptIcon from "../img/icons/skills/typescript.svg";
+// import typescriptIcon from "../img/icons/skills/typescript.svg";
 // import reduxIcon from "../img/icons/skills/redux.svg";
 // import reactIcon from "../img/icons/skills/react.svg";
 // import javascriptIcon from "../img/icons/skills/javascript.svg";
@@ -20,11 +20,13 @@ import typescriptIcon from "../img/icons/skills/typescript.svg";
 // import nodejsIcon from "../img/icons/skills/nodejs.svg";
 // import mysqlIcon from "../img/icons/skills/mysql.svg";
 // import phpIcon from "../img/icons/skills/php.svg";
+import { BiLogoTypescript } from "react-icons/bi";
+
 
 export const skills = {
   coreTechnologies: [
 //     { title: "JavaScript", img: javascriptIcon },
-    { title: "TypeScript", img: typescriptIcon },
+    { title: "TypeScript", icon: <BiLogoTypescript size={50} color="#3178C6"/> },
 //     { title: "ReactJS", img: reactIcon },
 //     { title: "Redux/Redux Toolkit", img: reduxIcon },
 //     { title: "HTML5", img: htmlIcon },

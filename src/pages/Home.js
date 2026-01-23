@@ -14,10 +14,11 @@ const Home = () => {
               <h2 className="title-2">Frontend</h2>
               <ul>
                 {skills.coreTechnologies.map((skill) => {
-                  return <Skill title={skill.title} img={skill.img} key={skill.title} />;
+                  console.log("title:", skill.title, "img:", skill.icon)
+                  return <Skill title={skill.title} icon={skill.icon} key={skill.title} />;
                 })}
-                {/* JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, NPM,
-                BootStrap, MaterialUI, Yarn, StyledComponents */}
+                JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, NPM,
+                BootStrap, MaterialUI, Yarn, StyledComponents
               </ul>
             </div>
             <li className="content-list__item">
