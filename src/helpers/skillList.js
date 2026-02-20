@@ -21,12 +21,14 @@
 // import mysqlIcon from "../img/icons/skills/mysql.svg";
 // import phpIcon from "../img/icons/skills/php.svg";
 import { BiLogoTypescript } from "react-icons/bi";
+import { RiJavascriptFill } from "react-icons/ri";
+
 
 
 export const skills = {
   coreTechnologies: [
-//     { title: "JavaScript", img: javascriptIcon },
-    { title: "TypeScript", icon: <BiLogoTypescript size={50} color="#3178C6"/> },
+    { title: "JavaScript", icon: <RiJavascriptFill size={100} color="#6763b9"/> },
+    { title: "TypeScript", icon: <BiLogoTypescript size={100} color="#3178C6"/> },
 //     { title: "ReactJS", img: reactIcon },
 //     { title: "Redux/Redux Toolkit", img: reduxIcon },
 //     { title: "HTML5", img: htmlIcon },

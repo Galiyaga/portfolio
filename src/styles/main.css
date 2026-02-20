@@ -265,6 +265,15 @@ body {
   margin-top: 0.5em;
 }
 
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
 .social__item {
   transition: all 0.5s ease;
 }
