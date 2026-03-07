@@ -267,11 +267,17 @@ body {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   gap: 20px;
   list-style: none;
   padding: 0;
   margin: 0 0 20px 0;
+  align-items: center;
+}
+
+.skills-grid svg {
+  width: 80px;
+  height: 80px;
 }
 
 .social__item {
