@@ -11,7 +11,7 @@
   opacity: 0.9;
 }
 
-:where(.skill-card:nth-child(1) svg, .skill-card:nth-child(2) svg) {
+:where(.skill-card:nth-child(1) svg, .skill-card:nth-child(2) svg, .skill-card:nth-child(6) svg) {
   transform: scale(1.1);
 }
 

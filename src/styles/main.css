@@ -255,7 +255,6 @@ body {
 
 .content-list {
   margin: 0 auto;
-  max-width: 570px;
   align-items: center;
   row-gap: 40px;
   text-align: center;

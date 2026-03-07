@@ -25,10 +25,7 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { GrReactjs   } from "react-icons/gr";
 import { SiRedux } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa6";
-
-
-
-
+import { LiaCss3 } from "react-icons/lia";
 
 
 export const skills = {
@@ -38,7 +35,7 @@ export const skills = {
     { title: "ReactJS", icon: <GrReactjs size={100} color="#694bbb"/> },
     { title: "Redux/Toolkit", icon: <SiRedux size={100} color="#b940b1"/> },
     { title: "HTML5", icon: <FaHtml5 size={100} color="#9f64d0"/>},
-//     { title: "CSS3", img: cssIcon },
+    { title: "CSS3", icon: <LiaCss3 size={100} color="#9dcee5"/>},
   ],
 //   developmentTools: [
 //     { title: "Webpack", img: webpackIcon },
