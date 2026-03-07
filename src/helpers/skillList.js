@@ -24,6 +24,8 @@ import { BiLogoTypescript } from "react-icons/bi";
 import { RiJavascriptFill } from "react-icons/ri";
 import { GrReactjs   } from "react-icons/gr";
 import { SiRedux } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa6";
+
 
 
 
@@ -31,11 +33,11 @@ import { SiRedux } from "react-icons/si";
 
 export const skills = {
   coreTechnologies: [
-    { title: "JavaScript", icon: <RiJavascriptFill size={100} color="#6763b9"/> },
+    { title: "JavaScript", icon: <RiJavascriptFill size={100} color="#5a56ab"/> },
     { title: "TypeScript", icon: <BiLogoTypescript size={100} color="#3178C6"/> },
-    { title: "ReactJS", icon: <GrReactjs size={100} color="#3178C6"/> },
-    { title: "Redux/Toolkit", icon: <SiRedux size={50} color="#3178C6"/> }
-//     { title: "HTML5", img: htmlIcon },
+    { title: "ReactJS", icon: <GrReactjs size={100} color="#694bbb"/> },
+    { title: "Redux/Toolkit", icon: <SiRedux size={100} color="#b940b1"/> },
+    { title: "HTML5", icon: <FaHtml5 size={100} color="#9f64d0"/>},
 //     { title: "CSS3", img: cssIcon },
   ],
 //   developmentTools: [
