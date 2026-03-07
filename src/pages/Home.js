@@ -12,6 +12,7 @@ const Home = () => {
           <div className="content-list">
             <div className="content-list__item">
               <h2 className="title-2">Frontend</h2>
+              <h3 className="title-3">Core technologies</h3>
               <ul className="skills-grid">
                 {skills.coreTechnologies.map((skill) => {
                   return <SkillCard title={skill.title} icon={skill.icon} key={skill.title} />;
