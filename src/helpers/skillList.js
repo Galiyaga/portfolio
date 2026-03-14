@@ -26,6 +26,16 @@ import { GrReactjs   } from "react-icons/gr";
 import { SiRedux } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa6";
 import { LiaCss3 } from "react-icons/lia";
+import { SiWebpack } from "react-icons/si";
+import { TbBrandVite } from "react-icons/tb";
+import { FaGithub } from "react-icons/fa";
+import { FaYarn } from "react-icons/fa6";
+import { VscServerProcess } from "react-icons/vsc";
+
+
+
+
+
 
 
 export const skills = {
@@ -37,13 +47,13 @@ export const skills = {
     { title: "HTML5", icon: <FaHtml5 size={100} color="#9f64d0"/>},
     { title: "CSS3", icon: <LiaCss3 size={100} color="#9dcee5"/>},
   ],
-//   developmentTools: [
-//     { title: "Webpack", img: webpackIcon },
-//     { title: "Vite", img: viteIcon },
-//     { title: "Git", img: gitIcon },
-//     { title: "Yarn", img: yarnIcon },
-//     { title: "Open Server Panel", img: openServerIcon },
-//   ],
+  developmentTools: [
+    { title: "Webpack", icon: <SiWebpack size={100} color="#28807d"/> },
+    { title: "Vite", icon: <TbBrandVite size={100} color="#288045"/> },
+    { title: "Git", icon: <FaGithub size={100} color="#639b28"/> },
+    { title: "Yarn", icon: <FaYarn size={100} color="#177880"/> },
+    { title: "Open Server Panel", icon: <VscServerProcess size={100} color="#80921b"/> },
+  ],
 //   libraries: [
 //     { title: "Material-UI", img: muiIcon },
 //     { title: "Bootstrap", img: bootstrapIcon },
