@@ -1,6 +1,6 @@
 import Header from "../components/header/Header";
 import { skills } from "../helpers/skillList";
-import SkillCard from "../components/skill/SkillCard";
+import SkillCardWrapper from "../components/skill/SkillCardWrapper";
 
 const Home = () => {
   return (
@@ -12,34 +12,13 @@ const Home = () => {
           <div className="content-list">
             <div className="content-list__item">
               <h2 className="title-2">Frontend</h2>
-              <div className="skills-grid__wrapper">
-                <h3 className="title-3">Core technologies</h3>
-                <ul className="skills-grid">
-                  {skills.coreTechnologies.map((skill) => {
-                    return (
-                      <SkillCard
-                        title={skill.title}
-                        icon={skill.icon}
-                        key={skill.title}
-                      />
-                    );
-                  })}
-                </ul>
-              </div>
-              <div className="skills-grid__wrapper">
-                <h3 className="title-3">Developments tools</h3>
-                <ul className="skills-grid">
-                  {skills.developmentTools.map((skill) => {
-                    return (
-                      <SkillCard
-                        title={skill.title}
-                        icon={skill.icon}
-                        key={skill.title}
-                      />
-                    );
-                  })}
-                </ul>
-              </div>
+              <ul className="skills-grid__wrapper">
+                {Object.values(skills).map((category) => {
+                  return (
+                    <SkillCardWrapper category={category} key={category.categoryTitle} />
+                  )
+                })}
+              </ul>
             </div>
             <div className="content-list__item">
               <h2 className="title-2">Backend</h2>
