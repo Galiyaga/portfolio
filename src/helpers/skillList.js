@@ -9,6 +9,16 @@ import { TbBrandVite } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
 import { FaYarn } from "react-icons/fa6";
 import { VscServerProcess } from "react-icons/vsc";
+import { SiMaterialformkdocs } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa6";
+import { SiStyledcomponents } from "react-icons/si";
+import { TbBrandStorybook } from "react-icons/tb";
+import { SiAxios } from "react-icons/si";
+
+
+
+
+
 
 export const skills = {
   coreTechnologies: {
@@ -41,13 +51,16 @@ export const skills = {
       },
     ],
   },
-  //   libraries: [
-  //     { title: "Material-UI", img: muiIcon },
-  //     { title: "Bootstrap", img: bootstrapIcon },
-  //     { title: "Styled Components", img: styledComponentsIcon },
-  //     { title: "Storybook", img: storybookIcon },
-  //     { title: "Axios", img: axiosIcon },
-  //   ],
+  libraries: {
+    categoryTitle: "Libraries",
+    items: [
+          { title: "Material-UI", icon: <SiMaterialformkdocs size={100} color="#9e6f38" /> },
+          { title: "Bootstrap", icon: <FaBootstrap size={100} color="#8d3428" /> },
+          { title: "Styled Components", icon: <SiStyledcomponents size={135} color="#e09a61" /> },
+          { title: "Storybook", icon: <TbBrandStorybook size={100} color="#c28118" /> },
+          { title: "Axios", icon: <SiAxios size={100} color="#cf5c39" /> },
+    ],
+  },
   //   testing: [{ title: "Jest", img: jestIcon }],
   //   backendAndApi: [
   //     { title: "REST API", img: restapiIcon },
