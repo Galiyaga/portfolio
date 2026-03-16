@@ -20,10 +20,6 @@ const Home = () => {
                 })}
               </ul>
             </div>
-            <div className="content-list__item">
-              <h2 className="title-2">Backend</h2>
-              <p>NodeJS, basic MySQL, basic PHP</p>
-            </div>
           </div>
         </div>
       </main>
