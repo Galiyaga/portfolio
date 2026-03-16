@@ -14,7 +14,12 @@ import { FaBootstrap } from "react-icons/fa6";
 import { SiStyledcomponents } from "react-icons/si";
 import { TbBrandStorybook } from "react-icons/tb";
 import { SiAxios } from "react-icons/si";
-
+import { SiJest } from "react-icons/si";
+import { FaPinterestP } from "react-icons/fa6";
+import { SiPostman } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
+import { FaPhp } from "react-icons/fa6";
 
 
 
@@ -54,19 +59,34 @@ export const skills = {
   libraries: {
     categoryTitle: "Libraries",
     items: [
-          { title: "Material-UI", icon: <SiMaterialformkdocs size={100} color="#9e6f38" /> },
-          { title: "Bootstrap", icon: <FaBootstrap size={100} color="#8d3428" /> },
-          { title: "Styled Components", icon: <SiStyledcomponents size={135} color="#e09a61" /> },
-          { title: "Storybook", icon: <TbBrandStorybook size={100} color="#c28118" /> },
-          { title: "Axios", icon: <SiAxios size={100} color="#cf5c39" /> },
+      {
+        title: "Material-UI",
+        icon: <SiMaterialformkdocs size={100} color="#9e6f38" />,
+      },
+      { title: "Bootstrap", icon: <FaBootstrap size={100} color="#8d3428" /> },
+      {
+        title: "Styled Components",
+        icon: <SiStyledcomponents size={135} color="#e09a61" />,
+      },
+      {
+        title: "Storybook",
+        icon: <TbBrandStorybook size={100} color="#c28118" />,
+      },
+      { title: "Axios", icon: <SiAxios size={100} color="#cf5c39" /> },
     ],
   },
-  //   testing: [{ title: "Jest", img: jestIcon }],
-  //   backendAndApi: [
-  //     { title: "REST API", img: restapiIcon },
-  //     { title: "Postman", img: postmanIcon },
-  //     { title: "Node.js Basics", img: nodejsIcon },
-  //     { title: "MySQL Basics", img: mysqlIcon },
-  //     { title: "PHP Basics", img: phpIcon },
-  //   ],
+  testing: {
+    categoryTitle: "Testing",
+    items: [{ title: "Jest", icon: <SiJest size={100} color="#646be9e4" /> }],
+  },
+  backendAndApi: {
+    categoryTitle: "Backend and API",
+    items: [
+          { title: "REST API", icon: <FaPinterestP size={100} color="#367089e4" /> },
+          { title: "Postman", icon: <SiPostman size={100} color="#367089e4" /> },
+          { title: "Node.js Basics", icon: <FaNodeJs size={100} color="#367089e4" /> },
+          { title: "MySQL Basics", icon: <GrMysql size={100} color="#367089e4" /> },
+          { title: "PHP Basics", icon: <FaPhp size={100} color="#367089e4" /> },
+    ],
+  },
 };
