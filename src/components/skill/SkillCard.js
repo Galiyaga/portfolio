@@ -6,7 +6,7 @@ const SkillCard = (props) => {
       <div className="skill-icon-wrapper">
         {props.icon}
       </div>
-      <span>{props.title}</span>
+      <span className="skills-title">{props.title}</span>
     </li>
   );
 };

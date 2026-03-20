@@ -1,8 +1,20 @@
 import { useParams } from "react-router-dom";
 import { projects } from "../helpers/projectList";
 import BtnWithLink from "../components/btnWithLink/BtnWithLink";
+import {skills} from "../helpers/skillList"
+import Skillcard from "../components/skill/SkillCard"
 
 const ProjectPage = () => {
+  const findSkillIcon = (skillTitle) => {
+  for (const category of Object.values(skills)) {
+    const found = category.items.find(item => 
+      item.title.toLowerCase().includes(skillTitle.toLowerCase())
+    );
+    if (found) return found;
+  }
+  return null;
+};
+
   const { id } = useParams();
   const project = projects[id];
   const gitHubLink = project.links?.gitHubLink;
@@ -32,7 +44,21 @@ const ProjectPage = () => {
           )}
 
           <div className="project-details__desc">
-            <p>Skills: {project.skills}</p>
+            <p>Skills: </p>
+            <div className="skills-container">
+          {project.skills.split(', ').map(skill => {
+            const skillData = findSkillIcon(skill)
+            return skillData ? (
+              <Skillcard 
+          key={skill}
+          icon={skillData.icon}
+          title={skill}
+        />
+      ) : (
+        <span key={skill}>{skill}</span> 
+      );
+    })}
+            </div>
           </div>
 
           <div className="project-details__link">

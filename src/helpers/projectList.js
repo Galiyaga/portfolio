@@ -12,7 +12,7 @@ import imgVC from "./vercel-black.svg";
 const projects = [
   {
     title: "Website for searching publications",
-    skills: "Node.js, React, Redux, HTML5, CSS3",
+    skills: "Node.js, ReactJS, Redux, HTML5, CSS3",
     img: project01,
     imgBig: project01Big,
     video: "/videos/video-review-skan.mp4",
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: "Browser-based task manager application",
-    skills: "Node.js, React, TypeScript, Redux, HTML5, CSS3",
+    skills: "Node.js, ReactJS, TypeScript, Redux, HTML5, CSS3",
     img: project02,
     imgBig: project02Big,
     video: "/videos/video-review-task-manager-ts.mp4",
