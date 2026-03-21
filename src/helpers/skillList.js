@@ -20,9 +20,8 @@ import { SiPostman } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { FaPhp } from "react-icons/fa6";
-
-
-
+import { GiVanillaFlower } from "react-icons/gi";
+import { RiDragDropLine } from "react-icons/ri";
 
 
 export const skills = {
@@ -32,6 +31,10 @@ export const skills = {
       {
         title: "JavaScript",
         icon: <RiJavascriptFill size={100} color="#5a56ab" />,
+      },
+      {
+        title: "VanillaJS",
+        icon: <GiVanillaFlower size={100} color="#5a56ab" />,
       },
       {
         title: "TypeScript",
@@ -73,6 +76,7 @@ export const skills = {
         icon: <TbBrandStorybook size={100} color="#9e6f38" />,
       },
       { title: "Axios", icon: <SiAxios size={100} color="#9e6f38" /> },
+      { title: "Dragula", icon: <RiDragDropLine size={100} color="#9e6f38" /> },
     ],
   },
   backendAndApi: {
