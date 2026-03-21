@@ -314,7 +314,12 @@ body {
 
   .header {
     min-height: unset;
+    flex-direction: column;
   }
+/*   
+  .header__wrapper {
+
+  } */
 
   .header__title {
     font-size: 30px;
