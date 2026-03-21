@@ -11,6 +11,7 @@ const Contacts = () => {
               <a
                 href="https://yandex.ru/maps/geo/kazan/53166501/?ll=49.108223%2C55.794889&z=14.8"
                 target="_blank"
+                rel="noreferrer"
               >
                 Kazan, Russia
               </a>
