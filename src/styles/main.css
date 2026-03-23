@@ -366,6 +366,18 @@ body {
     font-size: 30px;
   }
 
+  /* Skills */
+
+
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 0 20px 0;
+}
+
+
   /* Projects */
 
   .project__title {
