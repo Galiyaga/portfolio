@@ -258,7 +258,6 @@ body {
   margin: 20px 0 15px 0;
 }
 
-
 /* Content list */
 
 .content-list {
@@ -309,6 +308,22 @@ body {
   background-position: center center;
 }
 
+@media (max-width: 815px) {
+  /* Header  */
+  .header {
+    min-height: unset;
+    flex-direction: column;
+  }
+
+  .header__wrapper {
+    margin: 150px 80px 160px 80px;
+  }
+
+  .header-bg {
+    margin-top: 50px;
+  }
+}
+
 @media (max-width: 620px) {
   /* Header  */
 
@@ -316,10 +331,6 @@ body {
     min-height: unset;
     flex-direction: column;
   }
-/*   
-  .header__wrapper {
-
-  } */
 
   .header__title {
     font-size: 30px;
