@@ -368,7 +368,6 @@ body {
 
   /* Skills */
 
-
   .skills-grid {
     display: flex;
     flex-wrap: wrap;
@@ -376,7 +375,6 @@ body {
     gap: 20px;
     margin: 0 0 20px 0;
 }
-
 
   /* Projects */
 
@@ -389,6 +387,11 @@ body {
   .project-details__desc {
     margin-bottom: 20px;
     font-size: 22px;
+  }
+
+  .skills-container { 
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   /* Content List */
